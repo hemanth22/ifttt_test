@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"this":[{"is a":{"remainder":["to book cab", "for next week"]}}]}' https://maker.ifttt.com/trigger/bitroid_war_room/json/with/key/${IFTTT_WEBHOOK}
