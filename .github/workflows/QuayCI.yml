@@ -17,7 +17,7 @@ jobs:
       id: build-image
       uses: redhat-actions/buildah-build@v2
       with:
-        image: restapi
+        image: ifttt_voip
         tags: latest ${{ github.sha }}
         containerfiles: |
           ./Dockerfile
