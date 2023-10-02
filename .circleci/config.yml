@@ -30,6 +30,13 @@ jobs:
           command: pwd
 
 workflows:
-  test_my_app:
+  ifttt_app:
     jobs:
       - build_and_test
+    triggers:
+      - schedule:
+          cron: "15 3,4,5,6,7,8,9,10,11,12,13,14,15 * * *"
+          filters:
+            branches:
+              only:
+                - ifttt
