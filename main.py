@@ -11,8 +11,8 @@ base_url = f'https://maker.ifttt.com/trigger/bitroid_hello/with/key/{IFTTT_WEBHO
 
 payload = {
     'value1': 'this is a remainder',
-    'value2': 'to book a cab',
-    'value3': 'for next week'
+    'value2': 'to',
+    'value3': 'drink water'
 }
 
 headers1 = {
