@@ -35,8 +35,8 @@ workflows:
       - build_and_test
     triggers:
       - schedule:
-          cron: "45 3 * * 1"
+          cron: "45 15 * * 5"
           filters:
             branches:
               only:
-                - ifttt_tps
+                - ifttt_tps_fry
