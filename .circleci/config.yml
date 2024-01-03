@@ -23,7 +23,7 @@ jobs:
 
       - run:
           name: Get TimeConverter
-          command: python main.py
+          command: python -V
 
       - run:
           name: present workdirectory
