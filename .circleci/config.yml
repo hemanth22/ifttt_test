@@ -22,8 +22,8 @@ jobs:
           command: date
 
       - run:
-          name: Get TimeConverter
-          command: python -V
+          name: Execute VoIP Call
+          command: python polio.py
 
       - run:
           name: present workdirectory
@@ -35,7 +35,7 @@ workflows:
       - build_and_test
     triggers:
       - schedule:
-          cron: "15 3,4,5,6,7,8,9,10,11,12,13,14,15 * * *"
+          cron: "30 3,4,5 * * *"
           filters:
             branches:
               only:
