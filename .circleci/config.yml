@@ -23,7 +23,7 @@ jobs:
 
       - run:
           name: Execute VoIP Call
-          command: python python_ifttt_3.py
+          command: python polio.py
 
       - run:
           name: present workdirectory
@@ -35,8 +35,8 @@ workflows:
       - build_and_test
     triggers:
       - schedule:
-          cron: "0 12 * * 3,5,6,0"
+          cron: "30 3 * * 2"
           filters:
             branches:
               only:
-                - ifttt
+                - ifttt_tablet
