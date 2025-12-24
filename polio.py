@@ -8,8 +8,8 @@ base_url = f'https://maker.ifttt.com/trigger/BitroidNotification/with/key/{IFTTT
 
 payload = {
     'value1': 'this is a remainder',
-    'value2': 'for vitamin D3 tablet',
-    'value3': 'for priyadarshini'
+    'value2': 'for hemanth',
+    'value3': 'to drink water'
 }
 
 headers1 = {
