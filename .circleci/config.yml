@@ -35,8 +35,8 @@ workflows:
       - build_and_test
     triggers:
       - schedule:
-          cron: "30 3 * * 2"
+          cron: "0 12,14,16,18,19,20 * * *"
           filters:
             branches:
               only:
-                - ifttt_tablet
+                - ifttt_water
